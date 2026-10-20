@@ -1,0 +1,19 @@
+@"
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+*.jks
+*.keystore
+*.apk
+*.aab
+google-services.json
+app/build/
+app/release/
+app/debug/
+"@ | Set-Content .gitignore -Encoding utf8
